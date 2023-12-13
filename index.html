@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicons -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>Quote</title>
+    <!-- font from google font-->
+<link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+    <!-- * vendor css links -->
+    <!-- bootstrap link  -->
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css" />
+    <!-- font-awesome link -->
+    <link rel="stylesheet" href="assets/css/vendor/all.min.css" />
+    <!-- * main css style -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div class="quote">
+      <div class="container  overflow-hidden">
+        <div class="quote__heading text-center  ">
+          <h1 class="mt">Quote of the Day</h1>
+        </div>
+        <div class="row justify-content-center align-items-center vh-100">
+          
+          <div class="col-lg-9">
+            <div class="quote__container">
+              <div class="quote__border"></div>
+              <div class="quote__box overflow-hidden">
+                
+                <p id="quote" class="quote__box--text lead  ps-4 mt-0 mt-sm-4">“Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind.”</p>
+                <p id="quote__author" class="mb-0">― Bernard M. Baruch</p>
+              </div>
+              <span class="quote__small-box--1 style">
+                <i class="fa-solid fa-quote-left"></i>
+              </span>
+              <span class="quote__small-box--2 style">
+                <i class="fa-solid fa-quote-right"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+           <button onclick="createQuote()" id="quote__btn" class="btn quote__btn">new quote</button>
+      </div>
+
+    </div>
+    <!-- bootstrap link js -->
+    <!-- <script src="assets/js/bootstrap.bundle.js"></script> -->
+    <!-- main js link -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
